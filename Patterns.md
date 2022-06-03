@@ -3,6 +3,23 @@
 Free "48 8B 01 48 8B D3 FF 50 20 48 83 C4 20 5B" 
 ```
 
+- 1.8-CL-3724489
+```c++
+GEngineOffset 			=	0x674AB20;		//Global Engine*
+GWorldOffset				=	0x674CD00;		//Global World*
+GNamesOffset 				=	0x66587C8;		//Global NameArray*
+GUObjectArrayOffset 		=	0x6661380;		//Global ObjectArray-Class*
+TUObjectArrayOffset 		=	0x6661390;		//Global ObjectArray*
+ProcessEventOffset 		=	0x13D86E0;		//UObject::ProcessEvent()
+SCO_IOffset 				=	0x13DD730;		//StaticContructObject_Internal()
+SLO_IOffset 				=	0x13E0180;		//StaticLoadObject_Internal()
+SpawnActorOffset 			=	0x137DBC0;		//UWorld::SpawnActor()
+PlainNameStringOffset 	=	0x12F0FC0;		//FNameEntry::GetPlainNameString()
+CGInternalOffset			=	0x137D380;		//CollectGarbageInternal()
+GiveAbilityOffset			=	0x3D50A60;		//GiveAbility()
+```
+
+
 - 2.5.0-CL-3889387
 ```c++
 GOBJECTS _("48 8B 05 ? ? ? ? 48 8D 1C C8 81 4B ? ? ? ? ? 49 63 76 30")
